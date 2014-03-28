@@ -1,0 +1,12 @@
+#!/bin/bash
+WGET=/usr/bin/wget
+PANDOC=/usr/bin/pandoc
+
+TMPFILE="$(mktemp)"
+OUTPUTFILE="${TMPFILE}.html"
+
+${WGET} --output-document "${TMPFILE}" "${1}"
+
+${PANDOC} -t html -o "${OUTPUTFILE}" -f latex "${TMPFILE}"
+
+cat "${OUTPUTFILE}"
