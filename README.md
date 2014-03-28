@@ -1,6 +1,6 @@
 # tex2html: 
 
-Given a url pointing to a valid `tex` file, converts it to a `html` file using (pandoc)[http://johnmacfarlane.net/pandoc/].
+Given a url pointing to a valid `tex` file, converts it to a `html` file using [pandoc](http://johnmacfarlane.net/pandoc/).
 
 # Installation: 
 
