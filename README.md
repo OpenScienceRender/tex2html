@@ -12,5 +12,5 @@ sudo apt-get install pandoc wget
 # Usage:
 
 ```bash
-./tex2html.py https://raw.githubusercontent.com/jgm/pandoc/master/tests/latex-reader.latex > output.html
+./tex2html https://raw.githubusercontent.com/jgm/pandoc/master/tests/latex-reader.latex > output.html
 ```
